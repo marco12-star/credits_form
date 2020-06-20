@@ -16,7 +16,7 @@
 	.offers__items{
 		-webkit-flex-wrap: wrap;
 		-moz-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
+		-ms-flex-wrap: wrap; 
 		-o-flex-wrap: wrap;
 		flex-wrap: wrap;
 	}
@@ -29,6 +29,9 @@
 	.nav a{
 		font-size: 15px;
 		white-space: nowrap;
+	}
+	.dws-menu > ul li a{
+		margin: 0 10px;
 	}
 }
 @media all and (max-width: 800px) {
