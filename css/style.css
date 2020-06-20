@@ -237,3 +237,6 @@ textarea[type="textarea"]::-webkit-input-placeholder { color: rgba(156, 156, 156
 	margin-right: 2em;
 	padding: 0;
 }
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: none;
+}
