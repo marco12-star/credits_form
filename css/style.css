@@ -8,7 +8,7 @@ body{
 :active, :hover, :focus {
     outline: 0;
     outline-offset: 0;
-}
+} 
 
 ul{
 	padding: 0;
@@ -96,11 +96,12 @@ a:not([href]):not([tabindex]){
  display: flex;
  -ms-align-items: center;
  align-items: center;
- margin: 1em;
+ margin: 0 20px;
  border-bottom: 1px solid #fff;
  color: #8AC44B;
  text-decoration: none;
  transition: all 0.3s;
+ white-space: nowrap;
 } 
 .dws-menu li a:hover{
  border-bottom: 1px solid #8AC44B;
@@ -236,7 +237,4 @@ textarea[type="textarea"]::-webkit-input-placeholder { color: rgba(156, 156, 156
 	margin: 0;
 	margin-right: 2em;
 	padding: 0;
-}
-[type=button], [type=reset], [type=submit], button {
-    -webkit-appearance: none;
 }
