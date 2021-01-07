@@ -168,7 +168,7 @@ a:not([href]):not([tabindex]){
 }
 
 .form__title{
-	margin: 2rem 0;
+	padding: 2rem 0;
 	font-size: 18px;
 	font-weight: 700;
 	color: #000;
